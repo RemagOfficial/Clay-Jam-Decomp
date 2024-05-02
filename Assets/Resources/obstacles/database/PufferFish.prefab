@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1039525458810240
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4479643329352721}
+  - 114: {fileID: 114581898203050612}
+  m_Layer: 0
+  m_Name: PufferFish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4479643329352721
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039525458810240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114581898203050612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1039525458810240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df33e40e715b84ce004f3971814cecfe, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _Size: 181
+  _ClayValue: 5
+  _ClayColoured: 1
+  _Squashable: 1
+  _CanBePurchased: 1
+  _Purchased: 0
+  _Type: 0
+  _InitialState: 0000000000000000000000000000000000000000
+  _CurrentState: 0000000000000000000000000000000000000000
+  _VisualScale: 1.35
+  _CollisionRadius: 1
+  _LifeTimeFabricEvent:
+  _EmergeFabricEvent:
+  _BounceFabricEvent: PufferFish
+  _Colours:
+  - _Hue: 270
+    _Saturation: 0.9
+    _Value: 1
+  - _Hue: 330
+    _Saturation: 1.3
+    _Value: 1.3
+  - _Hue: 22
+    _Saturation: 1
+    _Value: 1
+  _ColourCosts:
+  - 700
+  - 750
+  - 800
+  _ColourClayValues:
+  - 16
+  - 17
+  - 18
+  _CollisionPoints: []
+  _NonCollideableAnimTiles:
+  _IconTextureName:
+  _BounceScale: 1
+  _BounceLosesClay: 0
+  _SquashAudio:
+  _IsPolyCutOut: 0
+  _PauseAudioOnBounce: 1
+  _IsVertColoured: 0
+  ExtraMaterialName:
+  _QuestIconIndex: 4
+  _HillOrder: 5
+  _StatName:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1039525458810240}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1401168440040474
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4653705506654422}
+  - 114: {fileID: 114535514973777913}
+  m_Layer: 0
+  m_Name: TickSnotty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4653705506654422
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1401168440040474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114535514973777913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1401168440040474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df33e40e715b84ce004f3971814cecfe, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _Size: 16
+  _ClayValue: 5
+  _ClayColoured: 1
+  _Squashable: 1
+  _CanBePurchased: 1
+  _Purchased: 0
+  _Type: 0
+  _InitialState: 0000000000000000000000000000000000000000
+  _CurrentState: 0000000000000000000000000000000000000000
+  _VisualScale: 2
+  _CollisionRadius: 0.3
+  _LifeTimeFabricEvent: Tick
+  _EmergeFabricEvent:
+  _BounceFabricEvent:
+  _Colours:
+  - _Hue: 180
+    _Saturation: 1
+    _Value: 1.2
+  - _Hue: 330
+    _Saturation: 1.3
+    _Value: 1.3
+  - _Hue: 22
+    _Saturation: 1
+    _Value: 1
+  _ColourCosts:
+  - 250
+  - 300
+  - 350
+  _ColourClayValues:
+  - 14
+  - 15
+  - 16
+  _CollisionPoints: []
+  _NonCollideableAnimTiles:
+  _IconTextureName: Tick
+  _BounceScale: 1
+  _BounceLosesClay: 1
+  _SquashAudio:
+  _IsPolyCutOut: 0
+  _PauseAudioOnBounce: 1
+  _IsVertColoured: 0
+  ExtraMaterialName:
+  _QuestIconIndex: 1
+  _HillOrder: 2
+  _StatName:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1401168440040474}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

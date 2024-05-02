@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AvalancheParticle2Mat
+  m_Shader: {fileID: 4800000, guid: b11e6099f6bbfa84bae82daea6069441, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: fd52f4960b097f34e9e3ab75c7733a4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _HueShift
+      second: 80
+    - first:
+        name: _Sat
+      second: 0.6
+    - first:
+        name: _Val
+      second: 0.8
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.81960785, g: 0.18431373, b: 0.18431373, a: 1}
+    - first:
+        name: _Saturation
+      second: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1325454378176603
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4311779806479244}
+  - 114: {fileID: 114346989569999968}
+  m_Layer: 0
+  m_Name: TickSpriteAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4311779806479244
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1325454378176603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114346989569999968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1325454378176603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c0ed8acb56d76df6fc513e12703083, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _AlwaysUseAttachedRenderer: 0
+  _ScaleInCode: 0
+  _Anims:
+  - _Name: South
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 1
+    _EndTile: 5
+    _Type: 1
+  - _Name: SouthWest
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 6
+    _EndTile: 10
+    _Type: 1
+  - _Name: West
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 11
+    _EndTile: 15
+    _Type: 1
+  - _Name: NorthWest
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 16
+    _EndTile: 20
+    _Type: 1
+  - _Name: North
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 21
+    _EndTile: 25
+    _Type: 1
+  - _Name: NorthEast
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 26
+    _EndTile: 30
+    _Type: 1
+  - _Name: East
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 31
+    _EndTile: 35
+    _Type: 1
+  - _Name: SouthEast
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 36
+    _EndTile: 40
+    _Type: 1
+  - _Name: Bounce
+    _Textures:
+    - {fileID: 2800000, guid: 40f97ed66dc14c340bc9659b19e880c1, type: 3}
+    _NumTilesX: 5
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames: 0500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000050000000500000005000000
+    _StartTile: 1
+    _EndTile: 1
+    _Type: 1
+  _FirstAnimation: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1325454378176603}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

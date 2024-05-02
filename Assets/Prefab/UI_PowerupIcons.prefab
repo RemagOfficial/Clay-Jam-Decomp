@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1141056853984084
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4504372754209852}
+  - 114: {fileID: 114466102010714921}
+  m_Layer: 0
+  m_Name: UI_PowerupIcons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4504372754209852
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141056853984084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114466102010714921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141056853984084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 8cb97fdd964b6c24b995112f6f246858, type: 2}
+  sprites:
+  - name: JacketIcon
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 124
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ShrinkIcon
+    outer:
+      serializedVersion: 2
+      x: 384
+      y: 128
+      width: 124
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 384
+      y: 128
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SplatFingerIcon
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 4
+      height: 3
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FlameIcon
+    outer:
+      serializedVersion: 2
+      x: 384
+      y: 0
+      width: 125
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 384
+      y: 0
+      width: 12
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Panel
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 512
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 512
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkipButton1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkipButton3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkipButton2
+    outer:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkipButton5
+    outer:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1141056853984084}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

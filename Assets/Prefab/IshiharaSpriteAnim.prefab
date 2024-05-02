@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1064065406849485
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4538168323073958}
+  - 114: {fileID: 114615099088189949}
+  m_Layer: 0
+  m_Name: IshiharaSpriteAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4538168323073958
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064065406849485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114615099088189949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064065406849485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c0ed8acb56d76df6fc513e12703083, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _AlwaysUseAttachedRenderer: 0
+  _ScaleInCode: 0
+  _Anims:
+  - _Name: Walk
+    _Textures:
+    - {fileID: 2800000, guid: 159b943258ab91441a2bbacc6d96f969, type: 3}
+    - {fileID: 2800000, guid: c10dd231e3fdbd242a9e67763af9f308, type: 3}
+    _NumTilesX: 2
+    _NumTilesY: 8
+    _Fps: 15
+    _ScriptedFrames: 0800000001000000020000000300000004000000050000000600000007000000080000000700000006000000050000000400000003000000020000000100000008000000090000000a0000000b0000000c0000000d0000000e00000007000000080000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000700000008000000090000000a0000000b0000000c0000000d0000000e00000007000000
+    _StartTile: 1
+    _EndTile: 18
+    _Type: 0
+  - _Name: Hit
+    _Textures:
+    - {fileID: 2800000, guid: c10dd231e3fdbd242a9e67763af9f308, type: 3}
+    _NumTilesX: 2
+    _NumTilesY: 4
+    _Fps: 15
+    _ScriptedFrames:
+    _StartTile: 6
+    _EndTile: 8
+    _Type: 2
+  - _Name: Fly
+    _Textures:
+    - {fileID: 2800000, guid: 9aa6b3fc2daaede4ea492cf03a26b6ec, type: 3}
+    _NumTilesX: 4
+    _NumTilesY: 4
+    _Fps: 20
+    _ScriptedFrames:
+    _StartTile: 1
+    _EndTile: 8
+    _Type: 0
+  _FirstAnimation: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1064065406849485}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

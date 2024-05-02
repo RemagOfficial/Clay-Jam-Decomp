@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1113422381329378
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4801078464596433}
+  - 114: {fileID: 114200810066175375}
+  m_Layer: 0
+  m_Name: Hill3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4801078464596433
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113422381329378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114200810066175375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113422381329378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3bb905922d96cee961a28497f729cf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _AutoSpawn: 0
+  _AutoSpawnLots: 0
+  _ID: 3
+  _Name: HILL_Title_3
+  _UpgradeLevels:
+  - _Length: 80
+    _Cost: 1000
+    _CreatureUnlock: BingoWingedBat
+  - _Length: 110
+    _Cost: 600
+    _CreatureUnlock: TickPuddle
+  - _Length: 140
+    _Cost: 750
+    _CreatureUnlock: PartyOnion
+  - _Length: 170
+    _Cost: 1000
+    _CreatureUnlock: PufferFish
+  - _Length: 210
+    _Cost: 1500
+    _CreatureUnlock: SkiLeech
+  _CreatureSlots:
+  - _MouldName: BingoWingedBat
+    _ColourIndex: 0
+  - _MouldName: BingoWingedBat
+    _ColourIndex: 1
+  - _MouldName: BingoWingedBat
+    _ColourIndex: 2
+  - _MouldName: PufferFish
+    _ColourIndex: 0
+  - _MouldName: PufferFish
+    _ColourIndex: 1
+  - _MouldName: PufferFish
+    _ColourIndex: 2
+  - _MouldName: PartyOnion
+    _ColourIndex: 0
+  - _MouldName: PartyOnion
+    _ColourIndex: 1
+  - _MouldName: PartyOnion
+    _ColourIndex: 2
+  - _MouldName: SkiLeech
+    _ColourIndex: 0
+  - _MouldName: SkiLeech
+    _ColourIndex: 1
+  - _MouldName: SkiLeech
+    _ColourIndex: 2
+  - _MouldName: TickPuddle
+    _ColourIndex: 0
+  - _MouldName: TickPuddle
+    _ColourIndex: 1
+  - _MouldName: TickPuddle
+    _ColourIndex: 2
+  _RascalSlots:
+  - _MouldName: LittleChap
+    _ColourIndex: 0
+  - _MouldName: LittleChap
+    _ColourIndex: 1
+  - _MouldName: LittleChap
+    _ColourIndex: 2
+  _TrapSlots:
+  - CloudRain
+  - CloudSnow
+  - Puddle
+  - Snowman1
+  - Snowman2
+  - Snowman3
+  - Igloo1
+  - Igloo2
+  - Igloo3
+  - Igloo4
+  - Igloo5
+  - Igloo6
+  - Igloo7
+  - Igloo8
+  - SignPrize
+  - SignBest
+  _NativeSlots:
+  - GroundMouth
+  - Worm
+  _InitialState: 0
+  _CostCollection: {}
+  _Colour:
+    _Hue: 215
+    _Saturation: 1.3
+    _Value: 0.68
+  _ColourFromOrange:
+    _Hue: 195
+    _Saturation: 1
+    _Value: 0.7
+  _JVPColour:
+    _Hue: 200
+    _Saturation: 1.3
+    _Value: 0.5
+  _JVPFeatureColour:
+    _Hue: 50
+    _Saturation: 1.8
+    _Value: 0.7
+  _PowerPlayColour:
+    _Hue: 170
+    _Saturation: 1
+    _Value: 1
+  _HillHalfWidth: 6
+  _RascalMultiplier: 5
+  _RascalColours:
+  - _Hue: 270
+    _Saturation: 0.9
+    _Value: 1
+  - _Hue: 330
+    _Saturation: 1.3
+    _Value: 1.3
+  - _Hue: 22
+    _Saturation: 1
+    _Value: 1
+  _PowerPlayPacks:
+  - _Cost: 800
+    _NumPowerplays: 1
+  - _Cost: 3500
+    _NumPowerplays: 5
+  - _Cost: 6500
+    _NumPowerplays: 10
+  _CollapseParams:
+    _DistBehindPebbleTostart: 3
+    _MaxDistBehindPebble: 9
+    _WarningDistanceBehindPebble: 2
+    _WarningHoldTime: 2
+    _StartTime: 2
+    _SpeedAtStart: 1.3
+    _SpeedAtEnd: 4.2
+    _TimeToDeath: 0
+    _TimeToConsume: 2
+    _MinPebbleSpeedRatio: 0
+    _MaxPebbleSpeedRatio: 0
+    _ProgressPassedMaxPebbleSpeedForMaxRatio: 0
+  _CollapseParamsMonsterLove:
+    _DistBehindPebbleTostart: 5
+    _MaxDistBehindPebble: 2.1
+    _WarningDistanceBehindPebble: 2.1
+    _WarningHoldTime: 1.7
+    _StartTime: 0
+    _SpeedAtStart: 0
+    _SpeedAtEnd: 0
+    _TimeToDeath: 0
+    _TimeToConsume: 2
+    _MinPebbleSpeedRatio: 0.9
+    _MaxPebbleSpeedRatio: 2
+    _ProgressPassedMaxPebbleSpeedForMaxRatio: 500
+  _PebbleHandlingParams:
+    _MaxRadiusScale: 4
+    _OriginalRadiusScale: 1
+    _ModelRadiusMeters: 0.25
+    _RadiusRatio_TouchingCurb: 0.6
+    _TopMaxSpeed: 3.8
+    _BaseMaxSpeed: 2.5
+    _MinHitMonsterSpeed: 5
+    _Acceleration: 100
+    _BounceHeightSmallestSize: 2
+    _BounceHeightBiggestSize: 4
+    _BounceDistanceSmallestSize: 2
+    _BounceDistanceBiggestSize: 4
+    _BounceSpinRPS: 4
+    _SpinFactorOriginalRadius: 1.5
+    _SpinFactorMaxRadius: 5
+    _ClayNeededForMaxRadius: 750
+    _StartSize: 1
+    _PercentLostPerBounce: 3
+    _FlyDistanceMax: 999
+    _FlyDistanceMin: 30
+    _FlyTime: 2.5
+    _FlyHeight: 12.5
+    _ClayNeededForMaxFlight: 850
+    _FlyFactor_Clay: 0.8
+    _FlyFactor_Speed: 0.2
+    _FlyFactor_Gouge: 0.2
+    _TimeToStopWhenTravelingDirectlyUpHill: 9
+    _SpeedToDropOutOfGouge: 0
+    _DistanceAllowedToTravelUpHill: 9
+    _GougeDownHillRatioForMinBoost: 0
+    _GougeDownHillRatioForMaxBoost: 0
+    _GougeMinBoost: 1
+    _GougeMaxBoost: 1.5
+    _GougeMaxBoostInBottomZone: 6
+    _GougeSpeedBoostDecayTime: 5
+    _FlickMinBoost: 1
+    _FlickMaxBoost: 6
+    _FlickMaxSpeedInchesPerSec: 30
+    _MinFlickPowerNormalisedForSpecialFX: 0.9
+    _MinFlickPowerNormalisedForMediumFX: 0.6
+    _MomentumDownhillCosineToGain: 0.5
+    _MomentumDownhillCosineForMaxGain: 0.707
+    _MomentumDownhillCosineToLose: 0.17
+    _MomentumDownhillCosineForMaxLoss: -0.17
+    _MomentumBuilupTime: 5
+    _MomentumMaxBoost: 1.5
+    _MomentumLossTime: 1
+    _MomentumBounceLoss: 0.5
+    _TimeToStopWhenOutOfLives: 1
+    _MLove_ProgressForMinSpeed: 5
+    _MLove_ProgressForMaxSpeed: 1600
+    _MLove_MinSpeed: 2.4
+    _MLove_MaxSpeed: 10
+  _BossMonsterName: Margo
+  _ClayPerHeart: 1.2
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1113422381329378}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

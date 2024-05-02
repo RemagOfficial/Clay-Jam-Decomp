@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: QuestPanelNext
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.18333334
+        value: {x: 0.002811452, y: -0.00080979784, z: 0.04}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.93333334
+        value: {x: 0.002811452, y: -0.00080979784, z: 0.04}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: QuestPanel/QuestSquare/Icon
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.18333334
+        value: {x: 120.915535, y: 6.5552707, z: 50}
+        inSlope: {x: 2.28619E-39, y: 0, z: 0}
+        outSlope: {x: 2.28619E-39, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.93333334
+        value: {x: 120.915535, y: 6.5552707, z: 50}
+        inSlope: {x: 2.28619E-39, y: 0, z: 0}
+        outSlope: {x: 2.28619E-39, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: QuestDone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.16666667
+        value: {x: 0, y: 0, z: -1000}
+        inSlope: {x: 2.24699E-35, y: 0, z: 60000.004}
+        outSlope: {x: 1.9490006E-05, y: 0, z: 60000.004}
+        tangentMode: 0
+      - time: 0.18333334
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 2.24699E-35, y: 0, z: 60000.004}
+        outSlope: {x: 1.9490006E-05, y: 0, z: 60000.004}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.18333334
+        value: {x: 0.01, y: 0.01, z: 0.01}
+        inSlope: {x: 2.5346413, y: 2.5346413, z: 2.5346413}
+        outSlope: {x: 2.5346413, y: 2.5346413, z: 2.5346413}
+        tangentMode: 0
+      - time: 0.48333332
+        value: {x: 0.7703923, y: 0.7703923, z: 0.7703923}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.63333327
+        value: {x: 0.6560398, y: 0.6560398, z: 0.6560398}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.76666665
+        value: {x: 0.7116083, y: 0.7116083, z: 0.7116083}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.8666667
+        value: {x: 0.6925067, y: 0.6925067, z: 0.6925067}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.93333334
+        value: {x: 0.7, y: 0.7, z: 0.7}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.18333334
+        value: {x: 0.22, y: 0.22, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.93333334
+        value: {x: 0.22, y: 0.22, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: QuestPanel/QuestSquare/Icon
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.18333334
+        value: {x: 0.1, y: 0.1, z: 0.1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.93333334
+        value: {x: 0.1, y: 0.1, z: 0.1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: QuestDone
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

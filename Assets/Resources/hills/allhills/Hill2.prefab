@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1131283658023922
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4099095003610211}
+  - 114: {fileID: 114750227658502322}
+  m_Layer: 0
+  m_Name: Hill2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4099095003610211
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1131283658023922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114750227658502322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1131283658023922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3bb905922d96cee961a28497f729cf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _AutoSpawn: 0
+  _AutoSpawnLots: 0
+  _ID: 2
+  _Name: HILL_Title_2
+  _UpgradeLevels:
+  - _Length: 100
+    _Cost: 2500
+    _CreatureUnlock: TickSnotty
+  - _Length: 135
+    _Cost: 1350
+    _CreatureUnlock: Plipa
+  - _Length: 175
+    _Cost: 1800
+    _CreatureUnlock: PsychSid
+  - _Length: 205
+    _Cost: 2300
+    _CreatureUnlock: MonstrePerillos
+  - _Length: 245
+    _Cost: 2900
+    _CreatureUnlock: WashingMachine
+  _CreatureSlots:
+  - _MouldName: Plipa
+    _ColourIndex: 0
+  - _MouldName: Plipa
+    _ColourIndex: 1
+  - _MouldName: Plipa
+    _ColourIndex: 2
+  - _MouldName: PsychSid
+    _ColourIndex: 0
+  - _MouldName: PsychSid
+    _ColourIndex: 1
+  - _MouldName: PsychSid
+    _ColourIndex: 2
+  - _MouldName: MonstrePerillos
+    _ColourIndex: 0
+  - _MouldName: MonstrePerillos
+    _ColourIndex: 1
+  - _MouldName: MonstrePerillos
+    _ColourIndex: 2
+  - _MouldName: WashingMachine
+    _ColourIndex: 0
+  - _MouldName: WashingMachine
+    _ColourIndex: 1
+  - _MouldName: WashingMachine
+    _ColourIndex: 2
+  - _MouldName: TickSnotty
+    _ColourIndex: 0
+  - _MouldName: TickSnotty
+    _ColourIndex: 1
+  - _MouldName: TickSnotty
+    _ColourIndex: 2
+  _RascalSlots:
+  - _MouldName: LittleChap
+    _ColourIndex: 0
+  - _MouldName: LittleChap
+    _ColourIndex: 1
+  - _MouldName: LittleChap
+    _ColourIndex: 2
+  _TrapSlots:
+  - Ear
+  - Eye1
+  - Eye2
+  - Eye3
+  - Eye4
+  - Foot1
+  - Foot2
+  - Foot3
+  - Foot4
+  - Hand1
+  - Hand2
+  - Hand3
+  - Igloo1
+  - Igloo2
+  - Igloo3
+  - Igloo4
+  - Igloo5
+  - Igloo6
+  - Igloo7
+  - Igloo8
+  - SignPrize
+  - SignBest
+  _NativeSlots:
+  - GroundMouth
+  - Worm
+  _InitialState: 0
+  _CostCollection: {}
+  _Colour:
+    _Hue: 286.3
+    _Saturation: 0.98
+    _Value: 0.8
+  _ColourFromOrange:
+    _Hue: 290
+    _Saturation: 0.9
+    _Value: 0.8
+  _JVPColour:
+    _Hue: 295
+    _Saturation: 0.85
+    _Value: 0.8
+  _JVPFeatureColour:
+    _Hue: 0
+    _Saturation: 1
+    _Value: 1
+  _PowerPlayColour:
+    _Hue: 250
+    _Saturation: 0.75
+    _Value: 1
+  _HillHalfWidth: 5
+  _RascalMultiplier: 6
+  _RascalColours:
+  - _Hue: 180
+    _Saturation: 1
+    _Value: 1.2
+  - _Hue: 330
+    _Saturation: 1.3
+    _Value: 1.3
+  - _Hue: 22
+    _Saturation: 1
+    _Value: 1
+  _PowerPlayPacks:
+  - _Cost: 1200
+    _NumPowerplays: 1
+  - _Cost: 5500
+    _NumPowerplays: 5
+  - _Cost: 10000
+    _NumPowerplays: 10
+  _CollapseParams:
+    _DistBehindPebbleTostart: 3
+    _MaxDistBehindPebble: 7
+    _WarningDistanceBehindPebble: 1.7
+    _WarningHoldTime: 1.7
+    _StartTime: 2
+    _SpeedAtStart: 2
+    _SpeedAtEnd: 5
+    _TimeToDeath: 0
+    _TimeToConsume: 2
+    _MinPebbleSpeedRatio: 0
+    _MaxPebbleSpeedRatio: 0
+    _ProgressPassedMaxPebbleSpeedForMaxRatio: 0
+  _CollapseParamsMonsterLove:
+    _DistBehindPebbleTostart: 5
+    _MaxDistBehindPebble: 1.9
+    _WarningDistanceBehindPebble: 1.9
+    _WarningHoldTime: 1.6
+    _StartTime: 0
+    _SpeedAtStart: 0
+    _SpeedAtEnd: 0
+    _TimeToDeath: 0
+    _TimeToConsume: 2
+    _MinPebbleSpeedRatio: 1
+    _MaxPebbleSpeedRatio: 2
+    _ProgressPassedMaxPebbleSpeedForMaxRatio: 500
+  _PebbleHandlingParams:
+    _MaxRadiusScale: 4
+    _OriginalRadiusScale: 1
+    _ModelRadiusMeters: 0.25
+    _RadiusRatio_TouchingCurb: 0.6
+    _TopMaxSpeed: 4.2
+    _BaseMaxSpeed: 3
+    _MinHitMonsterSpeed: 5
+    _Acceleration: 50
+    _BounceHeightSmallestSize: 1
+    _BounceHeightBiggestSize: 1
+    _BounceDistanceSmallestSize: -1
+    _BounceDistanceBiggestSize: -1
+    _BounceSpinRPS: 4
+    _SpinFactorOriginalRadius: 1.5
+    _SpinFactorMaxRadius: 5
+    _ClayNeededForMaxRadius: 850
+    _StartSize: 1
+    _PercentLostPerBounce: 4
+    _FlyDistanceMax: 999
+    _FlyDistanceMin: 30
+    _FlyTime: 2.5
+    _FlyHeight: 12.5
+    _ClayNeededForMaxFlight: 950
+    _FlyFactor_Clay: 0.8
+    _FlyFactor_Speed: 0.2
+    _FlyFactor_Gouge: 0.2
+    _TimeToStopWhenTravelingDirectlyUpHill: 11
+    _SpeedToDropOutOfGouge: 0
+    _DistanceAllowedToTravelUpHill: 11
+    _GougeDownHillRatioForMinBoost: 0
+    _GougeDownHillRatioForMaxBoost: 0
+    _GougeMinBoost: 1
+    _GougeMaxBoost: 1.5
+    _GougeMaxBoostInBottomZone: 6
+    _GougeSpeedBoostDecayTime: 5
+    _FlickMinBoost: 1
+    _FlickMaxBoost: 6
+    _FlickMaxSpeedInchesPerSec: 30
+    _MinFlickPowerNormalisedForSpecialFX: 0.9
+    _MinFlickPowerNormalisedForMediumFX: 0.6
+    _MomentumDownhillCosineToGain: 0.5
+    _MomentumDownhillCosineForMaxGain: 0.707
+    _MomentumDownhillCosineToLose: 0.17
+    _MomentumDownhillCosineForMaxLoss: -0.17
+    _MomentumBuilupTime: 5
+    _MomentumMaxBoost: 1.5
+    _MomentumLossTime: 1
+    _MomentumBounceLoss: 0.5
+    _TimeToStopWhenOutOfLives: 1
+    _MLove_ProgressForMinSpeed: 5
+    _MLove_ProgressForMaxSpeed: 1400
+    _MLove_MinSpeed: 2.5
+    _MLove_MaxSpeed: 10
+  _BossMonsterName: NoBodyNose
+  _ClayPerHeart: 1.5
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1131283658023922}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

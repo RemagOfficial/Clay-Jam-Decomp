@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HatIn
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.01584622, y: -0.0062550777, z: -0.5047657}
+        inSlope: {x: 1.18953E-16, y: -5.94765E-17, z: -3.806496E-15}
+        outSlope: {x: 2.7755404E-16, y: -1.3877702E-16, z: -8.881729E-15}
+        tangentMode: 0
+      - time: 0.0666666
+        value: {x: 0.01584622, y: -0.0062550777, z: -0.5047657}
+        inSlope: {x: 1.1895343E-16, y: -5.9476715E-17, z: -3.8065097E-15}
+        outSlope: {x: 2.7755404E-16, y: -1.3877702E-16, z: -1.3615439E-05}
+        tangentMode: 0
+      - time: 0.16666675
+        value: {x: 0.01584622, y: -0.0062550777, z: -0.40350404}
+        inSlope: {x: 1.1895258E-16, y: -5.947629E-17, z: -4.841722E-06}
+        outSlope: {x: 2.7755602E-16, y: -1.3877801E-16, z: -8.881793E-15}
+        tangentMode: 0
+      - time: 0.29999995
+        value: {x: 0.01584622, y: -0.0062550777, z: -0.40350404}
+        inSlope: {x: 1.1895343E-16, y: -5.9476715E-17, z: -3.8065097E-15}
+        outSlope: {x: 2.7755404E-16, y: -1.3877702E-16, z: -9.135158E-05}
+        tangentMode: 0
+      - time: 0.4333334
+        value: {x: 0.01584622, y: -0.0062550777, z: 0.5109061}
+        inSlope: {x: 1.1895258E-16, y: -5.947629E-17, z: 4.5594163}
+        outSlope: {x: 1.1895258E-16, y: -5.947629E-17, z: 4.5594163}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: HatBrimModel
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.4824545, y: 2.4824545, z: 2.4824545}
+        inSlope: {x: 1.1148479, y: 1.1148479, z: 1.1148479}
+        outSlope: {x: 2.2296958, y: 2.2296958, z: 2.2296958}
+        tangentMode: 0
+      - time: 0.06666684
+        value: {x: 2.6311007, y: 2.6311007, z: 2.6311007}
+        inSlope: {x: 2.229676, y: 2.229676, z: 2.229676}
+        outSlope: {x: -7.3594594, y: -7.3594594, z: -7.3594594}
+        tangentMode: 0
+      - time: 0.10000014
+        value: {x: 2.066148, y: 2.066148, z: 2.066148}
+        inSlope: {x: -24.212149, y: -24.212149, z: -24.212149}
+        outSlope: {x: -24.212149, y: -24.212149, z: -24.212149}
+        tangentMode: 0
+      - time: 0.13333344
+        value: {x: 1.016959, y: 1.016959, z: 1.016959}
+        inSlope: {x: -24.21204, y: -24.21204, z: -24.21204}
+        outSlope: {x: -24.21204, y: -24.21204, z: -24.21204}
+        tangentMode: 0
+      - time: 0.16666675
+        value: {x: 0.45201364, y: 0.45201364, z: 0.45201364}
+        inSlope: {x: -8.474188, y: -8.474188, z: -8.474188}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.3333335
+        value: {x: 0.4457152, y: 0.4457152, z: 0.4457152}
+        inSlope: {x: -0.18895376, y: -0.18895376, z: -0.18895376}
+        outSlope: {x: -0.4156972, y: -0.4156972, z: -0.4156972}
+        tangentMode: 0
+      - time: 0.4000001
+        value: {x: 0.41800216, y: 0.41800216, z: 0.41800216}
+        inSlope: {x: -0.4156945, y: -0.4156945, z: -0.4156945}
+        outSlope: {x: -0.18895197, y: -0.18895197, z: -0.18895197}
+        tangentMode: 0
+      - time: 0.4333334
+        value: {x: 0.41170377, y: 0.41170377, z: 0.41170377}
+        inSlope: {x: -0.18895197, y: -0.18895197, z: -0.18895197}
+        outSlope: {x: -0.18895197, y: -0.18895197, z: -0.18895197}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: HatBrimModel
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 1
+  m_Bounds:
+    m_Center: {x: 0.01330471, y: -0.0057811737, z: -0.2300303}
+    m_Extent: {x: 1.4197316, y: 1.4426007, z: 0.82743645}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

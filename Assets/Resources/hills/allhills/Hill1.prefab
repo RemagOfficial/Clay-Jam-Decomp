@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1518848301734637
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4440907206059695}
+  - 114: {fileID: 114588355986789792}
+  m_Layer: 0
+  m_Name: Hill1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4440907206059695
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518848301734637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114588355986789792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518848301734637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3bb905922d96cee961a28497f729cf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _AutoSpawn: 0
+  _AutoSpawnLots: 0
+  _ID: 1
+  _Name: HILL_Title_1
+  _UpgradeLevels:
+  - _Length: 80
+    _Cost: 0
+    _CreatureUnlock: Noodle
+  - _Length: 110
+    _Cost: 20
+    _CreatureUnlock: Tick
+  - _Length: 155
+    _Cost: 50
+    _CreatureUnlock: Bear
+  - _Length: 200
+    _Cost: 100
+    _CreatureUnlock: HeavyHead
+  - _Length: 237
+    _Cost: 150
+    _CreatureUnlock: Slinky
+  _CreatureSlots:
+  - _MouldName: Noodle
+    _ColourIndex: 0
+  - _MouldName: Noodle
+    _ColourIndex: 1
+  - _MouldName: Noodle
+    _ColourIndex: 2
+  - _MouldName: Slinky
+    _ColourIndex: 0
+  - _MouldName: Slinky
+    _ColourIndex: 1
+  - _MouldName: Slinky
+    _ColourIndex: 2
+  - _MouldName: HeavyHead
+    _ColourIndex: 0
+  - _MouldName: HeavyHead
+    _ColourIndex: 1
+  - _MouldName: HeavyHead
+    _ColourIndex: 2
+  - _MouldName: Bear
+    _ColourIndex: 0
+  - _MouldName: Bear
+    _ColourIndex: 1
+  - _MouldName: Bear
+    _ColourIndex: 2
+  - _MouldName: Tick
+    _ColourIndex: 0
+  - _MouldName: Tick
+    _ColourIndex: 1
+  - _MouldName: Tick
+    _ColourIndex: 2
+  _RascalSlots:
+  - _MouldName: LittleChap
+    _ColourIndex: 0
+  - _MouldName: LittleChap
+    _ColourIndex: 1
+  - _MouldName: LittleChap
+    _ColourIndex: 2
+  _TrapSlots:
+  - Flower1
+  - Flower2
+  - Flower3
+  - Flower4
+  - Mushroom1
+  - Mushroom2
+  - Mushroom3
+  - Mushroom4
+  - Rainbow
+  - Igloo1
+  - Igloo2
+  - Igloo3
+  - Igloo4
+  - Igloo5
+  - Igloo6
+  - SignPrize
+  - SignBest
+  _NativeSlots:
+  - GroundMouth
+  - Worm
+  _InitialState: 1
+  _CostCollection: {}
+  _Colour:
+    _Hue: 0
+    _Saturation: 1
+    _Value: 1
+  _ColourFromOrange:
+    _Hue: 0
+    _Saturation: 1
+    _Value: 1
+  _JVPColour:
+    _Hue: 0
+    _Saturation: 1
+    _Value: 1
+  _JVPFeatureColour:
+    _Hue: 120
+    _Saturation: 0.5
+    _Value: 0.8
+  _PowerPlayColour:
+    _Hue: 0
+    _Saturation: 1
+    _Value: 1
+  _HillHalfWidth: 7.5
+  _RascalMultiplier: 1
+  _RascalColours:
+  - _Hue: 180
+    _Saturation: 1
+    _Value: 1
+  - _Hue: 270
+    _Saturation: 0.9
+    _Value: 1
+  - _Hue: 22
+    _Saturation: 1
+    _Value: 1
+  _PowerPlayPacks:
+  - _Cost: 250
+    _NumPowerplays: 1
+  - _Cost: 1000
+    _NumPowerplays: 5
+  - _Cost: 2000
+    _NumPowerplays: 10
+  _CollapseParams:
+    _DistBehindPebbleTostart: 4
+    _MaxDistBehindPebble: 14
+    _WarningDistanceBehindPebble: 2
+    _WarningHoldTime: 2
+    _StartTime: 2
+    _SpeedAtStart: 0.8
+    _SpeedAtEnd: 2.8
+    _TimeToDeath: 0
+    _TimeToConsume: 2
+    _MinPebbleSpeedRatio: 0
+    _MaxPebbleSpeedRatio: 0
+    _ProgressPassedMaxPebbleSpeedForMaxRatio: 0
+  _CollapseParamsMonsterLove:
+    _DistBehindPebbleTostart: 5
+    _MaxDistBehindPebble: 2.5
+    _WarningDistanceBehindPebble: 2.5
+    _WarningHoldTime: 2
+    _StartTime: 0
+    _SpeedAtStart: 0
+    _SpeedAtEnd: 0
+    _TimeToDeath: 0
+    _TimeToConsume: 2
+    _MinPebbleSpeedRatio: 0.7
+    _MaxPebbleSpeedRatio: 2
+    _ProgressPassedMaxPebbleSpeedForMaxRatio: 500
+  _PebbleHandlingParams:
+    _MaxRadiusScale: 4
+    _OriginalRadiusScale: 1
+    _ModelRadiusMeters: 0.25
+    _RadiusRatio_TouchingCurb: 0.6
+    _TopMaxSpeed: 3.2
+    _BaseMaxSpeed: 2
+    _MinHitMonsterSpeed: 5
+    _Acceleration: 100
+    _BounceHeightSmallestSize: 3
+    _BounceHeightBiggestSize: 5
+    _BounceDistanceSmallestSize: 3
+    _BounceDistanceBiggestSize: 5
+    _BounceSpinRPS: 4
+    _SpinFactorOriginalRadius: 1.5
+    _SpinFactorMaxRadius: 5
+    _ClayNeededForMaxRadius: 250
+    _StartSize: 1
+    _PercentLostPerBounce: 1
+    _FlyDistanceMax: 999
+    _FlyDistanceMin: 25
+    _FlyTime: 2.5
+    _FlyHeight: 12.5
+    _ClayNeededForMaxFlight: 500
+    _FlyFactor_Clay: 0.8
+    _FlyFactor_Speed: 0.2
+    _FlyFactor_Gouge: 0.2
+    _TimeToStopWhenTravelingDirectlyUpHill: 14
+    _SpeedToDropOutOfGouge: 0
+    _DistanceAllowedToTravelUpHill: 14
+    _GougeDownHillRatioForMinBoost: 0
+    _GougeDownHillRatioForMaxBoost: 0
+    _GougeMinBoost: 1
+    _GougeMaxBoost: 1.5
+    _GougeMaxBoostInBottomZone: 6
+    _GougeSpeedBoostDecayTime: 5
+    _FlickMinBoost: 1
+    _FlickMaxBoost: 6
+    _FlickMaxSpeedInchesPerSec: 30
+    _MinFlickPowerNormalisedForSpecialFX: 0.9
+    _MinFlickPowerNormalisedForMediumFX: 0.6
+    _MomentumDownhillCosineToGain: 0.5
+    _MomentumDownhillCosineForMaxGain: 0.707
+    _MomentumDownhillCosineToLose: 0.17
+    _MomentumDownhillCosineForMaxLoss: -0.17
+    _MomentumBuilupTime: 5
+    _MomentumMaxBoost: 1.5
+    _MomentumLossTime: 1
+    _MomentumBounceLoss: 0.5
+    _TimeToStopWhenOutOfLives: 1
+    _MLove_ProgressForMinSpeed: 5
+    _MLove_ProgressForMaxSpeed: 2000
+    _MLove_MinSpeed: 2.2
+    _MLove_MaxSpeed: 10
+  _BossMonsterName: WonderBeard
+  _ClayPerHeart: 0.6
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1518848301734637}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

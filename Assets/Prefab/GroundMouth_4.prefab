@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1239027666280603
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4088857481386511}
+  - 114: {fileID: 114762712402070891}
+  - 114: {fileID: 114367891322574896}
+  - 114: {fileID: 114879651012197354}
+  m_Layer: 0
+  m_Name: GroundMouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4088857481386511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239027666280603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114762712402070891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239027666280603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b421ecf6014eb93dfa1e00252c736ec, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _VisualsPrefab: {fileID: 1140673913850853, guid: 0bab838028d549648aab6fb05fab898d, type: 2}
+--- !u!114 &114367891322574896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239027666280603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd4704a8fade7ef84d8a802dba7cdad, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114879651012197354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239027666280603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ee0c9172df4ca53243dafa044857e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _NibblePos: {x: 0, y: 0.5, z: 1}
+  _SuckSpeed: 10
+  _NibbleTimeMin: 0.5
+  _NibbleTimeMax: 1
+  _FlingSpeed: 5
+  _ClayToNibblePerSecond: 5
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1239027666280603}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

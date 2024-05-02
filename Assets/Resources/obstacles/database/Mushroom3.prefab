@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1785809260308113
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4419396702028907}
+  - 114: {fileID: 114766629101905626}
+  m_Layer: 0
+  m_Name: Mushroom3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4419396702028907
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785809260308113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114766629101905626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785809260308113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df33e40e715b84ce004f3971814cecfe, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _Size: 131
+  _ClayValue: 1
+  _ClayColoured: 0
+  _Squashable: 1
+  _CanBePurchased: 0
+  _Purchased: 0
+  _Type: 3
+  _InitialState: 0000000000000000000000000000000000000000
+  _CurrentState: 0000000000000000000000000000000000000000
+  _VisualScale: 1.1
+  _CollisionRadius: 0.3
+  _LifeTimeFabricEvent:
+  _EmergeFabricEvent:
+  _BounceFabricEvent:
+  _Colours:
+  - _Hue: 25.6
+    _Saturation: 1.46
+    _Value: 0.68
+  _ColourCosts: []
+  _ColourClayValues: []
+  _CollisionPoints: []
+  _NonCollideableAnimTiles:
+  _IconTextureName:
+  _BounceScale: 2
+  _BounceLosesClay: 1
+  _SquashAudio:
+  _IsPolyCutOut: 1
+  _PauseAudioOnBounce: 1
+  _IsVertColoured: 0
+  ExtraMaterialName:
+  _QuestIconIndex: -1
+  _HillOrder: 3
+  _StatName: Mushroom
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1785809260308113}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

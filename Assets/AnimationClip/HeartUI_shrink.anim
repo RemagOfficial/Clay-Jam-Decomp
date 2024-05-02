@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HeartUI_shrink
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0.25
+        value: {x: 0.0017368518, y: -0.001055319, z: 0.07853958}
+        inSlope: {x: 0.08421457, y: 0, z: 2995.2852}
+        outSlope: {x: -1.9991598, y: 0, z: 2995.2852}
+        tangentMode: 0
+      - time: 0.26666668
+        value: {x: 0.0017368518, y: -0.001055319, z: 50}
+        inSlope: {x: 0.08421457, y: 0, z: 2995.2852}
+        outSlope: {x: -1.9991598, y: 0, z: 2995.2852}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: HeartMesh
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.04657604, y: -0.009524153, z: 50}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.016666668
+        value: {x: 0.04657604, y: -0.009524153, z: 50}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: HeartBroken
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.83887, y: 0.83887, z: 0.83887}
+        inSlope: {x: 1.7919847, y: 1.7919847, z: 1.7919847}
+        outSlope: {x: 1.7919847, y: 1.7919847, z: 1.7919847}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.95833564, y: 0.95833564, z: 0.95833564}
+        inSlope: {x: -1.4449229, y: -1.4449229, z: -1.4449229}
+        outSlope: {x: -1.4449229, y: -1.4449229, z: -1.4449229}
+        tangentMode: 0
+      - time: 0.25
+        value: {x: 0.1, y: 0.1, z: 0.1}
+        inSlope: {x: -4.6818304, y: -4.6818304, z: -4.6818304}
+        outSlope: {x: -4.6818304, y: -4.6818304, z: -4.6818304}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: HeartMesh
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

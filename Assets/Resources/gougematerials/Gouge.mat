@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gouge
+  m_Shader: {fileID: 4800000, guid: 068a56f456421b6479eb3206ef08002f, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs: {}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Shininess
+      second: 1
+    - first:
+        name: _EmissionLM
+      second: 12.2
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RimPower
+      second: 3
+    m_Colors:
+    - first:
+        name: _MainTex
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
+    - first:
+        name: _Emission
+      second: {r: 0.14179105, g: 0.14179105, b: 0.14179105, a: 0}
+    - first:
+        name: _EmisColor
+      second: {r: 0.3358209, g: 0.3358209, b: 0.3358209, a: 0}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _RimColor
+      second: {r: 0.26, g: 0.19, b: 0.16, a: 0}
+    - first:
+        name: _Ambient
+      second: {r: 0.18656719, g: 0.18656719, b: 0.18656719, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _Tint
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _ColorOther
+      second: {r: 0, g: 0, b: 0, a: 1}

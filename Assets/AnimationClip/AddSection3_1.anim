@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AddSection3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 5.9604645E-08
+        value: {x: 0, y: 0, z: 0.029835977, w: 0.9995548}
+        inSlope: {x: 0, y: 0, z: -0.05504584, w: 0.0015413748}
+        outSlope: {x: 0, y: 0, z: -0.05504584, w: 0.0015413748}
+        tangentMode: 0
+      - time: 0.10000008
+        value: {x: 0, y: 0, z: 0.025016142, w: 0.9996871}
+        inSlope: {x: 0, y: 0, z: 0.10821828, w: -0.0028243673}
+        outSlope: {x: 0, y: 0, z: 0.10821828, w: -0.0028243673}
+        tangentMode: 0
+      - time: 0.50000006
+        value: {x: 0, y: 0, z: 0.030898063, w: 0.99952257}
+        inSlope: {x: 0, y: 0, z: 0.00024832765, w: -8.046619E-06}
+        outSlope: {x: 0, y: 0, z: 0.00024832765, w: -8.046619E-06}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: HillshadowModel
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: -0.8619251, y: 3.8874016, z: 0.25275457}
+    m_Extent: {x: 0.7647102, y: 0.23628044, z: 1.4645842}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

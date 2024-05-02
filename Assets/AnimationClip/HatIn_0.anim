@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HatIn
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0.23267624, z: 0}
+        inSlope: {x: -0, y: -0.8460909, z: -0}
+        outSlope: {x: -0, y: -0.8460909, z: -0}
+        tangentMode: 0
+      - time: 0.06666666
+        value: {x: -0, y: 0.17626983, z: 0}
+        inSlope: {x: -0, y: 1.656936, z: -0}
+        outSlope: {x: -0, y: 1.6569248, z: -0}
+        tangentMode: 0
+      - time: 0.19999999
+        value: {x: -0, y: 0.56406355, z: 0}
+        inSlope: {x: -0, y: -2.2037514E-06, z: -0}
+        outSlope: {x: -0, y: 5.709713E-15, z: -0}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: -0, y: 0.56406355, z: 0}
+        inSlope: {x: -0, y: -1.2053862E-14, z: -0}
+        outSlope: {x: -0, y: 5.7097233E-15, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: JVPArrow
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 87.0119, y: 55.96453, z: 55.96453}
+        inSlope: {x: -217.15031, y: 0, z: 187.7579}
+        outSlope: {x: -217.15031, y: 0, z: 187.7579}
+        tangentMode: 0
+      - time: 0.03333336
+        value: {x: 79.77355, y: 55.96453, z: 62.223133}
+        inSlope: {x: -155.79102, y: 0, z: 122.87974}
+        outSlope: {x: -155.79102, y: 0, z: 122.87974}
+        tangentMode: 0
+      - time: 0.06666666
+        value: {x: 76.62583, y: 55.96453, z: 64.15652}
+        inSlope: {x: 87.462234, y: 0, z: -56.586014}
+        outSlope: {x: 87.462234, y: 0, z: -56.586014}
+        tangentMode: 0
+      - time: 0.100000024
+        value: {x: 85.60438, y: 55.96453, z: 58.450726}
+        inSlope: {x: 349.71262, y: 0, z: -204.31332}
+        outSlope: {x: 349.71262, y: 0, z: -204.31332}
+        tangentMode: 0
+      - time: 0.16666669
+        value: {x: 109.69734, y: 55.96453, z: 40.551357}
+        inSlope: {x: 75.0144, y: 0, z: -328.4637}
+        outSlope: {x: 75.0144, y: 0, z: -328.4637}
+        tangentMode: 0
+      - time: 0.20000005
+        value: {x: 104.94097, y: 55.96453, z: 28.638037}
+        inSlope: {x: -1645.4465, y: -839.4538, z: -608.2556}
+        outSlope: {x: -1645.4465, y: -839.4538, z: -608.2556}
+        tangentMode: 0
+      - time: 0.23333335
+        value: {x: 0.001, y: 0.001, z: 0.001}
+        inSlope: {x: -1574.1011, y: -839.45386, z: -429.556}
+        outSlope: {x: -1574.1011, y: -839.45386, z: -429.556}
+        tangentMode: 0
+      - time: 0.2666667
+        value: {x: 0.0009973008, y: 0.0009973008, z: 0.0009973008}
+        inSlope: {x: -0.00015861187, y: -0.00015861187, z: -0.00015861187}
+        outSlope: {x: -0.00015861187, y: -0.00015861187, z: -0.00015861187}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 0.0009894259, y: 0.0009894259, z: 0.0009894259}
+        inSlope: {x: -0.00030887342, y: -0.00030887342, z: -0.00030887342}
+        outSlope: {x: -0.00030887342, y: -0.00030887342, z: -0.00030887342}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: JVPArrow
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0.0884707, z: -5.9604645E-08}
+    m_Extent: {x: 0.5484867, y: 0.49971843, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []
